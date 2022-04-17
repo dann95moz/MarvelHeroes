@@ -13,5 +13,7 @@ background-color:rgba(0,0,0,0.6);
 
 `
 export const ModalContainer = styled.div`
+
 position:relative;
-top:35%;`
+top:35%;
+`

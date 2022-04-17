@@ -6,10 +6,7 @@ border-radius:16px;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 width:140px;
 height:230px;
-z-index:0;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, #000000 100%);
-display:flex;
-align-items:flex-end;
 color:white;
 
 `
@@ -21,21 +18,22 @@ border:none;
 background: linear-gradient(180deg, rgba(88, 88, 88, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
 height:30px;
 width:30px;
-margin-right:12px;`
+margin-right:12px;
+`
 export const ButtonsContainer = styled.div`
 display:flex;
 position:relative;
-bottom:10px;
-right:155%`
+bottom:8px;
+left:10px;`
 export const Tipo = styled.div`
 display:flex;
 align-items:center;
 justify-content:left;
 text-align:left;
 position:relative;
+top:20px;
 bottom:190px;
 margin-left:54%;
-
 border-radius: 20px 0px 0px 20px;
 background:linear-gradient(180deg, #ED1D24 0%, #ED1F69 100%);
 height:24px;
@@ -50,25 +48,38 @@ margin-top:5px;
 margin-left:10px;
 margin-right:5px;
 text-align:center;
-width:50px;`
+width:50px;
+&:hover{
+    color:#f7c5cc;
+}`
 
 export const H3Ciudad = styled.h3`
 position: relative;
-right:90%;
-Bottom:30%;
+margin-top:85%;
+margin-left:10px;
+margin-bottom:15px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;`
+font-size: 14px;
+white-space: nowrap;
+&:hover{
+    color:#f7c5cc;
+}`
 export const H1Nombre = styled.h1`
+margin-left:10px;
 position: relative;
-right:125%;
-bottom: 20%;
+bottom:10px;
+color:white;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 18px;
-line-height: 100%;`
+font-size: 16px;
+line-height: 100%;
+white-space:nowrap;
+&:hover{
+    color:#f7c5cc;
+}`
 
 export const CustomInput = styled(Form.Control)`
 border-radius:20px;
@@ -106,8 +117,20 @@ width:47px;
 
 `
 export const Container = styled.div`
+display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 16px 0px; 
+  grid-template-areas: 
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."; 
+  justify-content: center; 
+  align-content: center; 
+  justify-items: center; 
+  align-items: center; 
 
-margin:0 20% 0 20%;`
+margin:10px 18% 20px 18%;`
 
 export const Header = styled.div`
 display:flex;
@@ -130,19 +153,21 @@ export const CustomModal = styled(Modal)`
 border-radius:8px;
 color:white;
 font-family: 'Montserrat';
-*>h5{
+h5{
+    margin:5px 0;
     font-weight: 500;
 font-size: 14px;
 line-height: 100%;
 color:rgba(255,255,255,0.75)
 };
-*>h4{
+h4{
+    margin:5px 0;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 100%;
 }
-*>h1{
+h1{
     font-style: normal;
 font-weight: 900;
 font-size: 40px;

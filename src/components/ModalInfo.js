@@ -36,7 +36,8 @@ function ModalInfo({
                     <h5>{editarPersonaje.condicion}</h5>
                     <h4>Super poder:</h4>
                     <h5>{editarPersonaje.poderes}</h5>
-
+                    <h4>Vehículo:</h4>
+                    <h5>{editarPersonaje.vehiculo}</h5>
 
                 </ModalContainer>
 

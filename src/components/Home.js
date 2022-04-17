@@ -102,26 +102,36 @@ const Home = () => {
             <Container>
                 {heroes && heroes.map((heroes, index) => (
                     <Card key={index}
-                        onClick={() => {
-                            setEditarPersonaje(heroes);
-                            setIsModalInfo(true);
-                        }}
+
 
                         style={{
                             backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, #000000 100%), url(${heroes.foto})`,
                             backgroundSize: "cover",
                             backgroundRepeat: "no-repeat",
-                            cursor: "pointer"
+
                         }}>
                         <Tipo>
-                            <H3Tipo>{heroes.tipo}
+                            <H3Tipo onClick={() => {
+                                setEditarPersonaje(heroes);
+                                setIsModalInfo(true);
+                            }}>{heroes.tipo}
                             </H3Tipo>
                         </Tipo>
-                        <H3Ciudad>{heroes.ciudad}</H3Ciudad>
-                        <H1Nombre> {heroes.nombre}</H1Nombre>
+                        <H3Ciudad
+                            onClick={() => {
+                                setEditarPersonaje(heroes);
+                                setIsModalInfo(true);
+                            }}>{heroes.ciudad}
+                        </H3Ciudad>
+                        <H1Nombre
+                            onClick={() => {
+                                setEditarPersonaje(heroes);
+                                setIsModalInfo(true);
+                            }}> {heroes.nombre}
+                        </H1Nombre>
 
                         <ButtonsContainer>
-                            <CustomButton variant="danger" onClick={() => {
+                            <CustomButton onClick={() => {
                                 eliminarPersonaje(heroes).then(() => {
                                     actualizarHeroes();
                                 });

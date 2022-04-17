@@ -37,7 +37,7 @@ function ModalEditar({
                     <Stack>
                         <Form.Control id="nombre" placeholder="Nombre" type="text" defaultValue={editarPersonaje.nombre} onChange={(e) => setHeroesEstado({ ...heroesEstado, nombre: e.target.value })} ></Form.Control>
                         <Form.Control id="descripcion" placeholder="descripcion" type="text" defaultValue={editarPersonaje.descripcion} onChange={(e) => setHeroesEstado({ ...heroesEstado, descripcion: e.target.value })} style={{ display: "none" }}></Form.Control>
-                        <Form.Control id="foto" placeholder="Urlfoto" type="text" defaultValue={editarPersonaje.foto} onChange={(e) => setHeroesEstado({ ...heroesEstado, foto: e.target.value })} style={{ display: "none" }}></Form.Control>
+                        <Form.Control id="foto" placeholder="Urlfoto" type="text" defaultValue={editarPersonaje.foto} onChange={(e) => setHeroesEstado({ ...heroesEstado, foto: e.target.value })} ></Form.Control>
                         <Form.Control id="tipo" placeholder="tipo" type="text" defaultValue={editarPersonaje.tipo} onChange={(e) => setHeroesEstado({ ...heroesEstado, tipo: e.target.value })} style={{ display: "none" }}></Form.Control>
                         <Form.Control id="condicion" placeholder="condicion" type="text" defaultValue={editarPersonaje.condicion} onChange={(e) => setHeroesEstado({ ...heroesEstado, condicion: e.target.value })} style={{ display: "none" }}></Form.Control>
                         <Form.Control id="ciudad" placeholder="ciudad" type="text" defaultValue={editarPersonaje.ciudad} onChange={(e) => setHeroesEstado({ ...heroesEstado, ciudad: e.target.value })}></Form.Control>
