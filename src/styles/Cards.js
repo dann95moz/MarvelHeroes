@@ -120,7 +120,7 @@ export const Container2 = styled.div`
 display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-  gap: 16px 0px; 
+  gap: 24; 
   grid-template-areas: 
     ". . . . ."
     ". . . . ."
