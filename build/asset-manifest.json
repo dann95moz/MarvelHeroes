@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.52eb8f75.chunk.css",
-    "main.js": "/static/js/main.9399bdda.chunk.js",
-    "main.js.map": "/static/js/main.9399bdda.chunk.js.map",
+    "main.js": "/static/js/main.39af1519.chunk.js",
+    "main.js.map": "/static/js/main.39af1519.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fc2da745.js",
     "runtime-main.js.map": "/static/js/runtime-main.fc2da745.js.map",
     "static/css/2.647844a4.chunk.css": "/static/css/2.647844a4.chunk.css",
-    "static/js/2.c0531acd.chunk.js": "/static/js/2.c0531acd.chunk.js",
-    "static/js/2.c0531acd.chunk.js.map": "/static/js/2.c0531acd.chunk.js.map",
+    "static/js/2.c86e0803.chunk.js": "/static/js/2.c86e0803.chunk.js",
+    "static/js/2.c86e0803.chunk.js.map": "/static/js/2.c86e0803.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.647844a4.chunk.css.map": "/static/css/2.647844a4.chunk.css.map",
     "static/css/main.52eb8f75.chunk.css.map": "/static/css/main.52eb8f75.chunk.css.map",
-    "static/js/2.c0531acd.chunk.js.LICENSE.txt": "/static/js/2.c0531acd.chunk.js.LICENSE.txt",
+    "static/js/2.c86e0803.chunk.js.LICENSE.txt": "/static/js/2.c86e0803.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/montserrat-vietnamese-400-normal.ba00b1a6.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.fc2da745.js",
     "static/css/2.647844a4.chunk.css",
-    "static/js/2.c0531acd.chunk.js",
+    "static/js/2.c86e0803.chunk.js",
     "static/css/main.52eb8f75.chunk.css",
-    "static/js/main.9399bdda.chunk.js"
+    "static/js/main.39af1519.chunk.js"
   ]
 }
