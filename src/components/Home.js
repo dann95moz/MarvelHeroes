@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { Stack, Form, Col, Container, Row } from "react-bootstrap"
+import { Stack, Form } from "react-bootstrap"
 import { Link } from 'react-router-dom'
 import eliminarPersonaje from '../functions/eliminarPersonaje'
 import filtrarDatos from '../functions/filtrarDatos'
 import getAllHeroes from '../functions/getAllHeroes'
 import { CustomButton, Card, ButtonsContainer, Tipo, H3Tipo, H3Ciudad, H1Nombre, CustomInput, Title, Search, SearchButton, ClearButton, Header, AddChar, CustomForm, Container2 } from '../styles/Cards'
-import GridTest from './GridTest'
 import ModalAñadir from './ModalAñadir'
 import ModalEditar from './ModalEditar'
 import ModalInfo from './ModalInfo'

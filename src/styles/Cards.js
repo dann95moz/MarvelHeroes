@@ -135,7 +135,7 @@ margin:10px 18% 20px 18%;
     display:grid;
     grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
-  gap: 16px 0px; 
+  gap: 24px 0px; 
   grid-template-areas: 
     ". . "
     ". . "

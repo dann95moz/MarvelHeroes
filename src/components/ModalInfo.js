@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Modal, Button } from 'react-bootstrap'
+import { Modal } from 'react-bootstrap'
 import { CustomModal } from '../styles/Cards'
 import { BackNClose, ModalContainer } from '../styles/modalInfoStyle'
 function ModalInfo({
