@@ -116,10 +116,10 @@ color:#B7B7C8;
 width:47px;
 
 `
-export const Container = styled.div`
+export const Container2 = styled.div`
 display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   gap: 16px 0px; 
   grid-template-areas: 
     ". . . . ."
@@ -130,7 +130,19 @@ display: grid;
   justify-items: center; 
   align-items: center; 
 
-margin:10px 18% 20px 18%;`
+margin:10px 18% 20px 18%;
+@media (max-width: 910px) {
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 16px 0px; 
+  grid-template-areas: 
+    ". . "
+    ". . "
+    ". . "; 
+   
+}
+`
 
 export const Header = styled.div`
 display:flex;
